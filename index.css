@@ -1,0 +1,173 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+/**links-styling**/
+a:link{
+  color: grey;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #394867;
+}
+
+a:hover{
+  background-color: #0F3D3E;
+}
+
+body{
+  -webkit-perspective: 1px;
+   perspective: 1px;
+    font-family: dekko, sans-serif, Tangerine, serif;
+    background-color: #d7d4b5;
+    color: #25433c;
+    cursor:pointer;
+    width: 100%;
+}
+
+body header{
+background: #F4EAD5;
+position: relative;
+}
+
+body header nav{
+  width: 70%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+body header nav li{
+  font-family: dekko;
+  border: none ;
+  list-style-type: none;
+  color: grey;
+}
+
+/**body header nav li img{
+  max-width:  200px;
+  max-height: 400px;
+  padding-top: 20px;
+}
+**/
+body .obj img{
+  border: none;
+}
+
+.obj{
+   -webkit-box-orient: vertical;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+
+.obj h1{
+  text-align: center;
+  font-family: 'Tangerine', serif;
+  font-weight: 600;
+  font-size: 4.2rem;
+  padding-bottom: 10px;
+}
+
+.obj_txt{
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  display: flex;
+  margin: 0 auto;
+  border: none;
+  text-align: center;
+  gap: 0.8rem;
+  font-family: dekko;
+  font-weight: 400;
+  font-size: 2rem;
+  width: 59%;
+}
+
+.serv{
+ -webkit-box-orient: vertical;
+flex-direction: column;
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+.serv h1{
+  text-align: center;
+  font-family: 'Tangerine', serif;
+  font-weight: 600;
+  font-size: 4.2rem;
+  padding-bottom: 10px;
+}
+
+.serv_txt{
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  display: flex;
+  margin: 0 auto;
+  border: none;
+  text-align: center;
+  font-family: dekko;
+  font-weight: 400;
+  font-size: 2rem;
+  width: 59%;
+}
+
+.col{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  align-items: center;
+
+
+}
+.col .lg img{
+  width: 120%;
+}
+
+.col .gon{
+  width: (800px, 500px);
+
+}
+
+.col .gon p{
+  width: 59%;
+  font-weight: 200;
+ font-size: 2rem;
+
+}
+
+@media (max-width < 600px) {
+  body
+ }
+
+ @media (max-width >= 600px) {
+   body
+ }
+
+
+
+
+
+  
+
+
+
+
+ 
+ 
