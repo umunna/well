@@ -130,18 +130,16 @@ text-align: center;
 
 .col{
   display: grid;
-  grid-template-columns: repeat(1, 400px)minmax(400px, 800px);
+  grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 10px;
 }
 
-@media (max-width < 600px) {
-  body
- }
-
- @media (max-width >= 600px) {
-   body
+ @media (max-width : 600px) {
+   .col{
+    grid-template-columns: 1fr;
+   }
  }
 
 
